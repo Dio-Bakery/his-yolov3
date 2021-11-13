@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8c4a8875c5a23ba6130a7915a71c23644c360139827582fe99700b008443710a
-size 2605
+#该项目分为两个主要文件
+Yolov3Tiny    AI部署文件夹
+最终Qt及本地文件   Qt界面文件夹
+
+#由于该项目文件大小超过了100MB，github上传大文件需要使用到LFS
+#git-lfs 使用需要升到git 1.9以上
+##Linux 系统
+sudo apt-get install git-lfs
+git lfs install
+
+#如果在下载git-lfs之前就clone了，可能导致文件内容有问题，解决办法就是，手动执行获取 Git LFS 对象的命令：
+git lfs fetch
+git lfs checkout
+##或
+git lfs pull
