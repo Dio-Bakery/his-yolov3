@@ -13,3 +13,6 @@ git lfs fetch
 git lfs checkout
 #### 或
 git lfs pull
+
+## 如果安装git-lfs仍然无法正常获取文件内容，请联系QQ:1741124630,或提出Issues
+## 百度网盘下载正在建设中。。。
